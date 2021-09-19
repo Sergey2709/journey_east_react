@@ -3,7 +3,7 @@ import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 function Header() {
   return (
-    <div style={{ backgroundColor: '#208ad8', color: 'white' }}>
+    <div style={{ backgroundColor: '#e0dcd1' }}>
       <Navbar color="muted" light expand="sm">
         <NavbarBrand href="/" style={{ marginLeft: 15 }}>
           <h4>ДЛ ПДКС</h4>

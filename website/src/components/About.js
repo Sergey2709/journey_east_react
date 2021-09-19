@@ -1,15 +1,18 @@
+import bcPaper from '../images/bc_paper.jpg'; 
+
 function About() {
   return (
     <div
       style={{
         display: 'flex',
         flexDirection: 'column',
-        backgroundColor: '#f8efcc',
+        backgroundImage: `url(${bcPaper})`,
+        // opacity: 0.7,
         minHeight: '90vh',
       }}
     >
       <h1 style={{ display: 'flex', justifyContent: 'center' }}>Хто такі масони?</h1>
-      <p style={{ margin: '50px', textAlign: 'justify' }}>
+      <p style={{ margin: '50px', textAlign: 'justify', fontSize: '17px', fontWeight: '600' }}>
         В Масонстві існує кодекс честі і правила, які регламентують поведінку і життя масонів.
         Усередині всіх лож світу триває безперервна прихована робота по вихованню Братів, які тільки
         завдяки своїм невпинним довгостроковим працям стають справжніми масонами. Саме завдяки
