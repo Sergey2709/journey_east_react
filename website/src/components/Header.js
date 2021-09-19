@@ -4,8 +4,8 @@ import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 function Header() {
   return (
     <div style={{ backgroundColor: '#e0dcd1' }}>
-      <Navbar color="muted" light expand="sm">
-        <NavbarBrand href="/" style={{ marginLeft: 15 }}>
+      <Navbar color="muted" light expand="sm" style={{ marginRight: '15px' }}>
+        <NavbarBrand href="/" style={{ marginLeft: '15px' }}>
           <h4>ДЛ ПДКС</h4>
         </NavbarBrand>
         <Nav className="mr-auto" navbar>
@@ -16,17 +16,17 @@ function Header() {
           </NavItem>
           <NavItem>
             <NavLink href="/about">
-              <b>О масонстві</b>{' '}
+              <b>О масонстві</b>
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/info">
-              <b>Інформація</b>{' '}
+              <b>Інформація</b>
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/form">
-              <b>Стати масоном</b>{' '}
+              <b>Стати масоном</b>
             </NavLink>
           </NavItem>
         </Nav>
